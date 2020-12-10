@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    	<link rel="stylesheet" href="util.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <title>Stadium</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">Meny</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+     <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+        <ul class="navbar-nav">
+        <li class="nav-sub-item"><a href="inledning.html">Inledning</a></li>
+        <li class="nav-sub-item"><a href="syfte.html">Syfte</a></li>
+        </ul>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="lia.html">Min LIA</a>
+        <ul class="navbar-nav">
+    <li class="nav-sub-item"><a href="stadium.html">Stadium</a></li>    
+      <li class="nav-sub-item"><a href="skola.html">Min skola</a></li>   
+            <li class="nav-sub-item"><a href="five.html">5 Pelare</a></li>    
+                  <li class="nav-sub-item"><a href="kung.html">Kunden</a></li>
+        </ul>
+      </li>   
+      <li class="nav-item">
+        <a class="nav-link" href="test.html">Testning</a>
+        <ul class="navbar-nav">
+            <li class="nav-sub-item"><a href="metod.html">Testmetoder</a></li>   
+                  <li class="nav-sub-item"><a href="krav.html">Krav</a></li>    
+                     <li class="nav-sub-item"><a href="princip.html">Best practices</a></li>    
+                         <li class="nav-sub-item"><a href="verktyg.html">Verktyg</a></li> 
+                                <li class="nav-sub-item"><a href="Languages.html">Språk</a></li> 
+
+        </ul>
+      </li>
+      <li class="nav-item">
+              <a class="nav-link" href="kvalitet.html">Kvalitet</a>
+              <ul class="navbar-nav">
+                <li class="nav-sub-item"><a href="type.html">kvalitets typer</a></li> 
+            </ul>
+                </li>
+                    <li class="nav-item">
+        <a class="nav-link" href="ledare.html">Guru</a>
+        <ul class="navbar-nav">
+                    <li class="nav-sub-item"><a href="ledare.html">Handledare</a></li>   
+                        <li class="nav-sub-item"><a href="feed.html">Feedback</a></li>   
+                        <li class="nav-sub-item"><a href="team.html">Teamwork</a></li>   
+
+
+
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+        <ul class="navbar-nav">
+            <li class= "nav-sub-item"><a href="contact.html">Contact</a></li>
+        
+        </ul>
+      </li>   
+    </ul>
+  </div>
+
+<!---
+  </div>  
+  <div class="search-box">
+    <form action="action=”http://search.google.com/find.html” method=”get” accept-charset=”utf-8” onsubmit=”ffresults.show(0);">
+      <input type="text" class="search-txt" placeholder="Search.." name="search">
+          <a class="search-btn" href=""></a>
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+  --->
+</nav>
+
+<div class="snowflakes" aria-hidden="true">
+
+  <div class="snowflake">
+
+  ❅
+
+  </div>
+
+  <div class="snowflake">
+
+  ❆
+
+  </div>
+
+  <div class="snowflake">
+
+  ❅
+
+  </div>
+
+  <div class="snowflake">
+
+  ❆
+
+  </div>
+
+  <div class="snowflake">
+
+  ❅
+
+  </div>
+
+  <div class="snowflake">
+
+  ❆
+
+  </div>
+
+  <div class="snowflake">
+
+    ❅
+
+  </div>
+
+  <div class="snowflake">
+
+    ❆
+
+  </div>
+
+  <div class="snowflake">
+
+    ❅
+
+  </div>
+
+  <div class="snowflake">
+
+    ❆
+
+  </div>
+
+  <div class="snowflake">
+
+    ❅
+
+  </div>
+
+  <div class="snowflake">
+
+    ❆
+
+  </div>
+    
+ <header>
+  <h2>Verktyg inom Test</h2>
+</header>
+
+
+<div class="container-fluid">
+  <div class="row">
+
+  <div class="col-sm-6">
+<img src="pics/toptool.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+  <div class="col-sm-6">
+  <h3 class="para1"> 
+  Det finns ett Hav av olika verktyg att jobba med, Frågan är vad vill företaget.
+    Här gäller det att var mycket tydlig från företagets sida innan man börjar investera i olika verktyg. 
+    Jag har använt mig av följande verktyg så lite uppsättning av miljön som möjligt samt att de alla är opensource
+      
+  </h3>
+</div>
+
+<div class="col-sm-6">
+  <p class="para1"> 
+
+  Jira:<br> JIRA är organiserat i separata ytor, Projekt. I varje projekt ligger Ärenden inlagda. 
+      Ett projekt är alltid kopplat till projektdeltagare som kan se och redigera de ärenden som ligger där.
+      Ärenden är i sin tur organiserade i en hierarkisk struktur: Projekt → Epics → Ärenden → Underärenden
+      Varje ärende innehåller en beskrivning, ansvarig handläggare, kommentarer, länkade Wiki-sidor mm.
+      Personliga ärenden<br>
+      Vill man jobba mer uppstyrt kan man också använda Scrum, då tillkommer tidsuppskattning, sprintplanering etc<br>
+      I ett projekt kan man alltid visa eller söka upp ärenden i en lista eller genom sökfunktionen. 
+      För det dagliga arbetet är projektets ärenden organiserade i en eller flera Tavlor där man visuellt kan tilldela, 
+      organisera, prioritera och dokumentera ärenden sinsemellan. 
+      Kanban är den vanligaste metoden för att organisera ärenden,
+      vi använder en enkel modell där ärendestatus följs enligt: Backlog → Aktuellt → Pågående → Klar
+
+
+  </p>
+</div>
+<div class="col-sm-6">
+<img src="pics/jiralogo.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+<div class="col-sm-6">
+<img src="pics/teams.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+<div class="col-sm-6">
+  <p class="para1"> 
+   Jag hade inte behövt lägga upp detta verktyg då det är en självklarhet med Microsoft teams, har vart ett suveränt verktyg
+      under Corona tiden. Denna har riktigt många verktyg, idag kan man nog inte jobba utan denna verktyg.
+      - Chatta: Dela med dig av dina åsikter, och av din personlighet. Skicka GIF-bilder, dekaler och emojier i en gruppchatt eller i privata meddelanden.<br>
+      - Möts: Gå direkt från gruppchatt till videokonferens med en knapptryckning. Grupper om 2 till 10 000 kan mötas på samma plats, oavsett hur utspridda de är geografiskt.<br>
+      - Ring: och ta emot samtal med interna och externa grupper med hjälp av Microsoft Teams-samtal, Telefonsystem, Samtalsabonnemang1 eller Direktroutning.<br>
+      - Samarbeta: Hitta, dela och redigera enkelt filer i realtid med välbekanta appar som Word, PowerPoint och Excel i Teams.
+        - Det här är bara en del, denna varktyg används nog i otroligt stor skala, inte bara arbets platser men även skolor.
+
+  </p>
+</div>
+
+  <div class="col-sm-6">
+  <p class="para1">
+  Microsoft Excel är ett program för kalkyl- och enklare datahanteringsuppgifter som ingår i programsviten Microsoft Office från Microsoft Corporation. 
+      Microsoft lanserade först kalkylprogrammet Multiplan 1982.
+      
+  </p>
+</div>
+
+ 
+
+
+
+
+ <div class="col-sm-6">
+<img src="pics/excellogo.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+
+  
+
+<div class="col-sm-6">
+<img src="pics/word.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+
+  <div class="col-sm-6">
+  <p class="para1"> 
+  Jag använde både excel och word för dokumentation av test rapporter, samt buggar. Detta är också ett fantastisk verktg.<br>
+- Omvandla dokument till webbsidor: Behöver du publicera ett nyhetsbrev eller dokument så att andra kan läsa det? Omvandla enkelt ett Word-dokument till en webbsida.<br>
+- Få översättning i realtid med bara ett klick: Samarbeta med personer från hela världen. Översätt dokument på andra språk med bara ett klick.<br>
+- Lyft ditt skrivande från bra till fantastiskt: Microsoft Editor kontrollerar mer än bara stavning och grammatik, så att du kan skriva med tillförsikt. Få intelligenta förslag via fönstret Översikt över Editor i Word, och låt Editor hjälpa dig med dokument, e-post och på webben.
+      
+  </p>
+</div>
+
+  <div class="col-sm-6">
+  <p class="para1"> 
+   Microsoft Visual Studio <br>är en avancerad programutvecklingsmiljö från Microsoft som används till att utveckla PC-baserade applikationer för Microsoft Windows och Internetanpassade distribuerade applikationer.
+        Jag har använt denna kontinuerligt när jag skrivit min kod i Javascript.
+
+  </p>
+</div>
+
+<div class="col-sm-6">
+<img src="pics/vs.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+<div class="col-sm-6">
+<img src="pics/Cypresslogo.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+  <div class="col-sm-6">
+  <p class="para1"> 
+   Cypress är BÄST. Jag kan inte förstå att man sitter fortfarande i Selenium!!:<br>
+
+        - Tidsresa, det tar ögonblicksbilder av dina tester när du kör testerna. Detta gör att du enkelt kan hålla muspekaren över varje kommando som ägde rum i ditt test
+        - Debuggability, Våra läsbara fel och stackspår gör felsökningen blixt snabbt.<br>
+        - Omladdningar i realtid, Cypress laddas automatiskt om när du gör ändringar i dina tester. De här kommandona körs i realtid i din app.<br>
+        - Automatisk väntan, Cypress väntar automatiskt på kommandon och påståenden innan du går vidare.<br>
+        - Spioner, stubbar och klockor, verifierar och kontrollerar beteenden hos funktioner, serversvar eller timers.<br>
+        - Konsekventa resultat, vår arkitektur använder inte Selenium eller WebDriver. Säg hej till snabba, konsekventa och tillförlitliga tester som är flingfria.<br>
+        - Nätverkstrafikkontroll, enkelt kontrollera, stubba och testa edge-fall utan att din server är involverad. Du kan stoppa nätverkstrafik hur du vill.<br>
+        - Skärmdumpar och videor, Visa skärmdumpar som tagits automatiskt vid misslyckande, eller videor från hela testpaketet när du kör huvudlöst.<br>
+
+  </p>
+</div>
+
+  <div class="col-sm-6">
+  <p class="para1"> 
+  Jag har kontiuerligt jobbat med jenkins för Stadium, satt upp många auto tester och låtit dem gå i flera, flera dagar, var 15e minut.
+      EX: end 2 end tester, där jag söker up varan till jag betalar varan i kassan. Super bra verkktyg.
+      - Kontinuerlig integration och kontinuerlig leverans:
+        Jenkins kan användas som en enkel CI-server eller förvandlas till ett kontinuerligt leveranshub för alla projekt.<br>
+
+      - Enkel installation:
+        Jenkins är ett fristående Java-baserat program, redo att köras direkt, med paket för Windows, Mac OS X och andra Unix-liknande operativsystem.<br>
+
+      - Enkel konfiguration:
+        Jenkins kan enkelt ställas in och konfigureras via webbgränssnittet, som inkluderar on-the-fly felkontroller och inbyggd hjälp.<br>
+
+      - Plugins:
+        Med hundratals plugins i Update Center integrerar Jenkins med praktiskt taget alla verktyg i den kontinuerliga integrations- och kontinuerliga leveransverktygskedjan.
+
+      - Utdragbar
+        Jenkins kan utökas via dess plugin-arkitektur, vilket ger nästan oändliga möjligheter för vad Jenkins kan göra.
+
+      - Distribuerad
+        Jenkins kan enkelt distribuera arbete över flera maskiner, vilket hjälper snabbare att bygga, testa och distribuera över flera plattformar.
+
+  </p>
+</div>
+
+<div class="col-sm-6">
+<img src="pics/logo-jenkins.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+<div class="col-sm-6">
+<img src="pics/slack.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+  <div class="col-sm-6">
+  <p class="para1"> 
+  - Slack, en förkortning av Searchable Log of All Conversation and Knowledge. 
+        Jag har använt slack då jag är med i olika communities ex: Cypress, Code Institute, Appium, Java-script. 
+        Dessa har hjälpt mig oerhört mycket när ingen annan fanns att fråga.<br>
+     - Slack är en bot som kopplar in sig på företagets personalsystem och varje morgon klockan åtta berättar den vilka i teamet som jobbar hemifrån,
+       är sjuka eller har något annat inbokat.<br>
+     - Offentliga kanaler låter olika grupper kommunicera utan att använda e-post eller grupp-SMS. 
+       De är öppna för alla i chatten förutsett att de först har blivit inbjudna dit. 
+       Privata kanaler gör det möjligt att ha privata konversationer mellan mindre grupper. 
+       Dessa kan användas för att dela upp större lag i deras egna respektive projekt. 
+       Direkta meddelanden låter användare skicka privata meddelanden till en specifik användare istället för en grupp.
+
+  </p>
+</div>
+
+<div class="col-sm-6">
+  <p class="para1"> 
+- Github är en webbaserad och centraliserad lagring av versionshistorik för programvaruutvecklingsprojekt som använder versionshanteringssystemet Git.Github erbjuder gratis lagring men även abonnemang för extra funktionalitet
+        - GitHub är en öppen källkod värdtjänst, som ett moln för kod. Det kommer att vara värd för dina källkodsprojekt. 
+          Det kan göra detta genom att använda git, ett revisionskontrollsystem som körs i kommandoradsgränssnittet. Det finns andra källor som liknar GitHub, inklusive BitBucket, Microsoft Team Foundation Server och mycket mer, 
+          men den stora storleken på samhället bör vara viktigt för dig om du vill att ditt projekt ska ses av så många som möjligt. Från och med 2018 rapporterade GitHub att ha mer än 28 miljoner användare, betydligt mer än sina konkurrenter.
+          De övriga skillnaderna innebär kostnader. GitHub erbjuder endast privata repositorier mot en extra kostnad.
+          Att använda GitHub gör det lättare att samarbeta med kollegor och kamrater och titta tillbaka på tidigare versioner av ditt arbete.
+          Om du inte redan använder GitHub för dina kodprojekt, är det bara några av anledningarna till att överväga att göra det. <br>
+        - Jag har använt github sedan dag 1 jag började med weebutveckling samt Test, allt som har med kod har jag lagt upp på Github.
+
+
+</p>
+</div>
+
+<div class="col-sm-6">
+<img src="pics/github.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+<div class="col-sm-6">
+<img src="pics/gitpod.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+<div class="col-sm-6">
+  <p class="para1"> 
+- GitPod, en plattform som gör det möjligt för utvecklare att skapa utvecklingsmiljöer i moln och att koda i en webbläsare, har publicerat sin källa på GitHub.
+      - GitPod-tjänsten använder containrar som körs i ett Kubernetes-kluster, vilket ger en flyktig utvecklingsmiljö, 
+        där utvecklare vanligtvis kodar i en webbläsare som använder Förmörkelse Theia, liknande Visual Studio Code (VS-kod) och kompatibel med dess språk-serverprotokoll
+         - nyckeln till att driva intelligenta IDE-funktioner som syntaxbelysning och auto-fullständig - liksom de flesta av dess tillägg.
+      - Jag har använt GiTPOD sedan 1 år tillbaka, det är riktigt bra IDE, krävs inga nedladdningar, direkt kopplad till Github, Bara klicka på 
+      den blå Gitpod knappen på Github så öppnas IDE, bara börja skriva och när du är klar, direkt kör den till Github. RIktigt enkelt
+
+
+</p>
+</div>
+
+<div class="col-sm-6">
+  <p class="para1"> 
+- Sedan första dagen fokuserar Zeplin enbart på att förbättra samarbetet mellan designers och ingenjörer,
+       vilket ger dem de mest exakta resurserna där ute. Just i mars exporterades 6 860 876 mönster från Sketch, 
+       Figma, Adobe XD och Photoshop CC till Zeplin av tusentals produktteam.<br>
+       - Hur har jag använt mig av Zeplin? Jag blev introducerad till Zeplin av Stadium, jag har använt detta vid Test
+       där Ux designer använder de för att tex: förändra en knapp, han designar, zeplin ger en auto kod som dem skickar vidare till
+       Accenture, där utvecklarna gör enligt designen, den kommer tillbaka till vår Test sajt, vart jag får uppgiften att kontrollera
+       att koden stämmer enligt Stadium.
+
+</p>
+</div>
+<div class="col-sm-6">
+<img src="pics/zeplin.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+<div class="col-sm-6">
+<img src="pics/postman.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+<div class="col-sm-6">
+  <p class="para1"> 
+  API:er  finns överallt på Internet. Varje gång du skickar och tar emot meddelanden med en snabbmeddelandeapp 
+      eller när du kollar nyheterna på internet begärs och tas emot API-förfrågningar i bakgrunden.
+      Några av HTTP-metoderna som är associerade med API: er är GET, POST, PUT, DELETE och PATCH.
+      När en utvecklare skapar ett API måste det testas för dess kvalitet. Det finns många element som utgör modern API-testning,
+      från att kontrollera funktionskrav till prestanda, tillförlitlighet och säkerhet för tjänsten.
+      Det finns också många populära verktyg för att möjliggöra snabb API-testning, som SoapUI, RapidAPI och TestProject.
+      Postman är ett annat sådant verktyg som kan hjälpa en API-utvecklares testprocess.
+
+
+</p>
+</div>
+
+<div class="col-sm-6">
+  <p class="para1"> 
+   - Eftersom användningen av mobil är mer är efterfrågan på mobilapplikationer också hög. 
+          Eftersom mobilapplikationer är praktiska finns det nästan 2 miljoner appar i Android och IOS.
+          Konvertering av aktuell programvarutestning till mobilversion kom till bilden för att skapa 
+          appar i mobilprogramvara och behovet av att testa dessa applikationer har väckt.<br>
+        - Varför välja Appium?
+          Med de många mobila automatiseringsverktygen på marknaden har Appium sin egen unika funktion 
+          som driver Android / iOS-system för att ge användarvänlig flexibilitet. Appium har sin förlängning 
+          att arbeta i inbyggda och hybridmobilapplikationer. Appium kan skrivas på vilket språk som helst och 
+          kan användas för automatiserade ändamål utan att ändra något. Och Appium-koden kan köras i olika enheter 
+          som är det bästa pålitliga och skalbara valet för automatisering av mobil.
+        - Jag har precis börjat lära mig Appium för att kunna testa appar, detta är nåt som frågas av företagen idag.
+          Det var vitkigt för mig att ta upp detta.
+
+
+
+
+</p>
+</div>
+<div class="col-sm-6">
+<img src="pics/appium.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+<div class="col-sm-6">
+<img src="pics/face.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+<div class="col-sm-6">
+  <p class="para1"> 
+  - Facebook: Detta är kanske inget jag behöver intrdoucera, ja berätta enkelt vad och hur jag har använt Facebook.
+        Helt enkelt för att vara uppkopplad online, så att kunna vara med i olika grupper så som Cypress, Appium, html, css och JS.
+        Det finns ett hav av olika grupper, vart man kan dela med sig av sina problem osv..Fantastisk tycker jag.
+
+
+
+</p>
+</div>
+  <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/toptool.jpg" class="image" alt="Mission">
+    </div>
+    <div class="flip-card-back">
+      <p>
+      
+      </p>
+
+        </div>
+    </div>
+</div>
+    
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/jiralogo.png" class="image" alt="Jira">
+    </div>
+    <div class="flip-card-back">
+      <p>  <small>
+      
+    </small>  </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/teams.png" class="image" alt="teams">
+    </div>
+    <div class="flip-card-back">
+      <p><small>
+     </small>
+</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/excellogo.jpg" class="image" alt="excel">
+    </div>
+    <div class="flip-card-back">
+      <p><small>
+      </small>
+</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/word.png" class="image" alt="excel">
+    </div>
+    <div class="flip-card-back">
+      <p><small>
+</small>
+</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/vs.jpg" class="image" alt="Visualstudiocode">
+    </div>
+    <div class="flip-card-back">
+      <p>
+     </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/Cypresslogo.png" class="image" alt="Cypress">
+    </div>
+    <div class="flip-card-back">
+      <p><small>
+
+     </small>
+</p>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/logo-jenkins.jpg" class="image" alt="jenkins">
+    </div>
+    <div class="flip-card-back">
+      <p><small>
+      </small></p>
+
+        </div>
+    </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/slack.png" class="image" alt="slack">
+    </div>
+    <div class="flip-card-back">
+      <p><small>
+     
+</small>
+</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/github.jpg" class="image" alt="slack">
+    </div>
+    <div class="flip-card-back">
+      <p><small>
+        </small>
+</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/gitpod.png" class="image" alt="slack">
+    </div>
+    <div class="flip-card-back">
+      <p><small>
+      
+</small>
+</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/zeplin.png" class="image" alt="slack">
+    </div>
+    <div class="flip-card-back">
+      <p><small>
+       
+
+        </small>
+        </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/postman.jpg" class="image" alt="slack">
+    </div>
+    <div class="flip-card-back">
+      <p><small>
+      
+        </small>
+        </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/appium.png" class="image" alt="slack">
+    </div>
+    <div class="flip-card-back">
+      <p><small>
+       
+        </small>
+        </p>
+
+        </div>
+    </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="pics/face.jpg" class="image" alt="slack">
+    </div>
+    <div class="flip-card-back">
+      <p><small>
+        
+        </small>
+        </p>
+
+        </div>
+    </div>
+</div>
+
+
+
+  </article1>
+</section>
+
+<div class="footer">
+ 
+   <div class="foot" ml-auto>
+                <h5 class="uppercase general-sub"></h5>
+                
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/stadium.sverige/">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/stadiumse">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.linkedin.com/company/stadium/mycompany/">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.pinterest.se/StadiumSweden/_created/">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/stadium_jointhemovement/">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/user/StadiumSweden">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!----
+            <div class="col-sm-12">
+                <h5 class="uppercase general-sub">Download</h5>
+                <p class="inline-block">
+                    Need a printable and shorter version of my project? Download it here.
+                    <a href="#" target="_blank" class="project">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Download link.</span>
+                    </a>
+                </p>
+            </div>
+            -->
+</div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+	<script src="map-custom.js"></script>
+<!--===============================================================================================-->
+	<script src="main.js"></script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+      $('[href]').css('color','white');
+
+</script>
+    
+</body>
+</html>
