@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    	<link rel="stylesheet" href="util.css">
+        <link rel="stylesheet" href="util.css">
+            	<link rel="stylesheet" href="main.css">
+
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -72,7 +74,7 @@
             </ul>
                 </li>
                     <li class="nav-item">
-        <a class="nav-link" href="ledare.html">Guru</a>
+        <a class="nav-link" href="guru.html">Guru</a>
         <ul class="navbar-nav">
                     <li class="nav-sub-item"><a href="ledare.html">Handledare</a></li>   
                         <li class="nav-sub-item"><a href="feed.html">Feedback</a></li>   
@@ -91,7 +93,6 @@
       </li>   
     </ul>
   </div>
-
   <!----
   <div class="search-box">
     <form action="action=”http://search.google.com/find.html” method=”get” accept-charset=”utf-8” onsubmit=”ffresults.show(0);">
@@ -181,7 +182,7 @@
    <div class="container-fluid">
   <div class="row">
 
-  <div class="col-sm-6">
+  <div class="col-sm-4">
   <div class="h1">Testmetoder</div>
   <p class="para1"> 
      Testmetoder visar helt enkelt hur testning skall gå till, dem delas upp i 2 olika kategorier Statisk samt Dynamisk testning.
@@ -190,15 +191,10 @@
             
   </p>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-4">
 <img src="pics/static.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
 </div>
-
-<div class="col-sm-6">
-<img src="pics/dyna.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
-</div>
-
-<div class="col-sm-6">
+<div class="col-sm-4">
   <div class="h1">Statisk testning</div>
   <p class="para1"> 
       fokuserar på att undersöka och granska programkod, dokumentation och design.<br>
@@ -212,8 +208,14 @@
   </p>
   </div>
 
+<div class="col-sm-4">
+<img src="pics/dyna.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
 
-<div class="col-sm-6">
+
+
+
+<div class="col-sm-4">
   <div class="h1">Dynamisk testning</div>
   <p class="para1"> 
      fokuserar på kvalitetssäkring och systemfunktionalitet<br>
@@ -228,15 +230,11 @@
   </p>
   </div>
 
-  <div class="col-sm-6">
+  <div class="col-sm-4">
 <img src="pics/white.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
 </div>
 
-<div class="col-sm-6">
-<img src="pics/black.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
-</div>
-
-<div class="col-sm-6">
+<div class="col-sm-4">
   <div class="h1">Whitebox testning</div>
   <p class="para1">
         Whitebox-testning är en typ av testning som kräver kunskap om mjukvarans interna arbete för att fortsätta testningen. 
@@ -248,8 +246,13 @@
 </p>
   </div>
 
-  <div class="col-sm-6">
-  <div class="h1">Black testning</div>
+<div class="col-sm-4">
+<img src="pics/black.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+
+  <div class="col-sm-4">
+  <div class="h1">Blackbox-testning</div>
   <p class="para1">
         Blackbox-testning är en typ av testning som inte kräver kunskap om mjukvarans interna arbete för att fortsätta testa. Det är en hög testnivå.
         Meningen och huvudsyftet med blackbox-test är att kontrollera programmets beteende.<br>
@@ -259,16 +262,87 @@
 </p>
   </div>
 
-<div class="col-sm-6">
-<img src="pics/func.jpg" class="rounded mx-auto d-block" alt="inled" width="800px" height="600px">
+<div class="col-sm-4">
+<img src="pics/grey.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
 </div>
 <br>
-<div class="col-sm-6">
-<img src="pics/soft.png" class="rounded mx-auto d-block" alt="inled" width="800px" height="600px">
+ <div class="col-sm-4">
+  <div class="h1">Greybox-testning</div>
+  <p class="para1">
+Gray Box-testning är testteknik som utförs med begränsad information om systemets interna funktionalitet. Gray Box-testare har tillgång till detaljerade designdokument tillsammans med information om krav.
+Gray Box-tester genereras baserat på statsbaserade modeller, UML-diagram eller arkitekturdiagram för målsystemet.
+Fördelar:
+Grey-box-test ger kombinerade fördelar med både white-box och black-box-test
+Den är baserad på funktionsspecifikation, UML-diagram, databasdiagram eller arkitektonisk vy
+Grey-box-testhandtag kan utforma komplexa testscenarier mer intelligent
+Den extra fördelen med greyboxtestning är att den bibehåller gränsen mellan oberoende testare och utvecklare
+
+</p>
+  </div>
+  <br>
+<br>
+
+<br>
+<br>
+<div class="col-sm-4">
+<img src="pics/soft.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="500px">
 </div>
 <br>
+
+<div class="col-sm-4">
+  <div class="h1">Functional-testning</div>
+  <p class="para1">
+Vad är Funktional-testning?
+Det är en typ av programvarutestning som validerar mjukvarusystemet mot funktionella krav / specifikationer. Syftet med 
+funktionstester är att testa varje funktion i programvaran genom att tillhandahålla lämplig inmatning och verifiera utdata mot funktionskraven.<br>
+
+Huvudsyftet med funktionstest är att kontrollera mjukvarusystemets funktioner. Det koncentrerar sig främst på -<br>
+Huvudfunktioner: Testa huvudfunktionerna för en applikation<br>
+Grundläggande användbarhet: Det innebär grundläggande användbarhetstestning av systemet. 
+Den kontrollerar om en användare kan navigera fritt genom skärmarna utan problem.<br>
+Tillgänglighet: Kontrollerar tillgängligheten för systemet för användaren
+Felförhållanden: Användning av testtekniker för att kontrollera felförhållanden. Den kontrollerar om lämpliga felmeddelanden visas.<br>
+Du testar på följande sätt.<br>
+- Förstå funktionskraven<br>
+- Identifiera testinmatning eller testdata baserat på krav<br>
+- Beräkna de förväntade resultaten med valda testinmatningsvärden<br>
+- Utför testfall<br>
+- Jämför faktiska och beräknade förväntade resultat<br>
 <br>
-   
+<br>
+<br>
+<br>
+
+    </p>
+  </div>
+<br>
+
+<div class="col-sm-4">
+<img src="pics/func.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="500px">
+</div>
+<br>
+
+<div class="col-sm-4">
+  <div class="h1">NON Functional-testning</div>
+  <p class="para1">
+    Icke-funktionell testning definieras som en typ av programvarutestning för att kontrollera icke-funktionella aspekter (prestanda, användbarhet, tillförlitlighet osv.) För ett program.
+    Det är utformat för att testa ett systems beredskap enligt icke-funktionella parametrar som aldrig tas upp genom funktionstestning.
+    Ett utmärkt exempel på icke-funktionellt test skulle vara att kontrollera hur många som samtidigt kan logga in i en programvara.
+    Icke-funktionell testning är lika viktigt som funktionstestning och påverkar kundnöjdheten.<br>
+Icke-funktionell testning bör öka produktens användbarhet, effektivitet, underhåll och bärbarhet.
+Hjälper till att minska produktionsrisken och kostnaderna för icke-funktionella aspekter av produkten.
+Optimera hur produkten installeras, konfigureras, körs, hanteras och övervakas.
+Samla och producera mätningar och mätvärden för intern forskning och utveckling.
+Förbättra och förbättra kunskapen om produktens beteende och tekniker som används.<br>
+- Icke-funktionell testning bör vara mätbar, så det finns ingen plats för subjektiv karaktärisering som bra, bättre, bästa etc.<br>
+- Exakt antal är sannolikt inte kända i början av kravprocessen.<br>
+- Viktigt att prioritera kraven.<br>
+- Se till att kvalitetsattribut identifieras korrekt i Software Engineering.<br>
+<br>
+<br>
+</p>
+    </div>
+
 </div>
 </div>
 
