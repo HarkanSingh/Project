@@ -12,9 +12,73 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   min-height: 400px;
    margin-bottom: 100px;
+   width: 100%;
    clear: both;
    /*display: flex;*/
   flex-direction: column;
+}
+
+.navbar-nav{
+    width: 100%;
+    background-color: #ff5733;
+}
+.navbar-nav ul{
+    display:flex;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar-nav .nav-item ul li{
+    list-style: none;
+    position: relative;
+    padding: 10px 15px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border-right: 1px solid rgb(255, 255, 255.2);
+
+}
+
+.navbar-nav .nav-sub-item ul li a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: #fff;
+
+}
+
+.navbar-nav .nav-sub-item .nav-item ul li ul{
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    display: block;
+    width: 200px;
+    transition: 0.5s;
+    background-color: #FF5733;
+    opacity: 0;
+    visibility: hidden;
+}
+.navbar-nav .nav-sub-item ul li: ul{
+    opacity: 1;
+    visibility:enabled
+}
+.navbar-nav .nav-sub-item .nav-item ul li ul li{
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 2);
+}
+
+@media (max-width: 768px)
+{
+.navbar-nav ul{
+    display:block;
+}
+.navbar-nav ul li{
+    display:block;
+}
+.navbar-nav ul li ul{
+    width:100%;
+    z-index: 3;
+}
 }
 
 /* Style the header */
@@ -25,17 +89,14 @@ header {
   text-align: center;
   font-size: 35px;
   color: white;
- overflow: hidden;
+  overflow: hidden;
 
 }
 
 
-h1{
+h1 h2 h3 h4 h5 h6{
     text-align: center;
-}
-h2{
-    font-size: 12px;
-    text-align: center;
+
 }
 li{
     font-size: 20px;
@@ -56,7 +117,6 @@ p{
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-   
     margin: 0 auto;
     display: block;
     background-color: #FF5733;
@@ -65,6 +125,29 @@ nav {
     font-size: 16px;
      position: fixed;
     z-index: 9999;
+}
+.navbar-nav{
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotateX(-0deg) rotateY(20deg); 
+}
+.nav-sub-item li{
+    float:left; 
+    position:relative; 
+    padding-right:100; 
+    display:block; 
+    border:4px solid #FF5733; 
+    border-style:inset;
+    color: #ffde00;
+    margin: 0;
+    margin-top: 4px;
+    padding-left: 6px;
+    font-family: decker;
+
 }
 .fafa-search{
     color: #2f3640;
@@ -204,32 +287,7 @@ a {
 
 }
 
-.navbar-nav{
-  line-height: 1.2;
-  text-transform: uppercase;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transform: rotateX(-0deg) rotateY(20deg); 
-}
 
-
-
-.nav-sub-item li{
-    float:left; 
-    position:relative; 
-    padding-right:100; 
-    display:block; 
-    border:4px solid #FF5733; 
-    border-style:inset;
-    color: #ffde00;
-    margin: 0;
-    margin-top: 4px;
-    padding-left: 6px;
-    font-family: decker;
-
-}
 
 .Front{
   display: block;
@@ -261,8 +319,8 @@ a {
 .container-fluid {
   background-color:#f1f1f1;
   padding: none;
-  height: 100%; 
-  width: 100%;
+  height: auto; 
+  width: auto;
   font-size: 15px;
  
 }
@@ -278,6 +336,11 @@ a {
     
 }
 
+.para2{
+    margin-top: 5px;
+    text-align: center;
+    
+}
 
 
 
@@ -331,11 +394,7 @@ Clear floats after the columns
     color: #000;
 }
 
-.col-sm-4{
-    display: inline-block;
-    color: #000;
-    width: 100%;
-}
+
 /* Style the footer */
 .footer {
   background-color: #FF5733;
@@ -410,53 +469,6 @@ Clear floats after the columns
   display: inline-block;
   
 
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 33%;
-  height: 50%;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  display: inline-block;
-  
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateY(180deg);
 }
 
 .formcontrol1:hover{
@@ -814,9 +826,21 @@ textarea.input100 {
 @media (max-width: 768px) {
   .rs1-wrap-input100 {
     width: 100%;
+
   }
 }
-
+@media (max-width: 768px) {
+    .navbar-nav,
+    .nav-sub-item {
+    flex-direction: column;
+  }
+  .navbar-nav{
+      display: none;
+  }
+  .nav-sub-item--right{
+      margin-left: 0;
+  }
+}
 @media (max-width: 576px) {
   .wrap-contact100 {
     padding: 82px 15px 33px 15px;
