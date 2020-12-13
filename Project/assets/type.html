@@ -33,14 +33,14 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="index.html">Meny</a>
+  <a class="navbar-brand" href="/Project/index.html">Meny</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
      <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="/Project/index.html">Home</a>
         <ul class="navbar-nav">
         <li class="nav-sub-item"><a href="inledning.html">Inledning</a></li>
         <li class="nav-sub-item"><a href="syfte.html">Syfte</a></li>
@@ -93,16 +93,21 @@
       </li>   
     </ul>
   </div>
-  <!----
+
+  <!---
   <div class="search-box">
     <form action="action=”http://search.google.com/find.html” method=”get” accept-charset=”utf-8” onsubmit=”ffresults.show(0);">
       <input type="text" class="search-txt" placeholder="Search.." name="search">
           <a class="search-btn" href=""></a>
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
-  </div>-->
-  
+  </div>
+  -->
 </nav>
+    
+ <header>
+  <h2>Typer av Kvalitet</h2>
+</header>
 <div class="snowflakes" aria-hidden="true">
 
   <div class="snowflake">
@@ -176,106 +181,41 @@
     ❆
 
   </div>
-                <header>
-                <h2>Testmetoder och testnivåer</h2>
-                </header>
-   <div class="container-fluid">
+
+<div class="container-fluid">
   <div class="row">
 
-  <div class="col-sm-4">
-  <div class="h1">Testmetoder</div>
+  <div class="col-sm-6">
   <p class="para1"> 
-     Testmetoder visar helt enkelt hur testning skall gå till, dem delas upp i 2 olika kategorier Statisk samt Dynamisk testning.
-     Statisk testning innebär att ifrågasätta och undersöka programkoden om den är korrekt utan att behöva exekvera den.
-     dynamisk testning innebär att studera programvaran när den exekveras. Dynamiska tester är i sin tur indelade i ”black box”- och ”white box” testetning.
-            
+    - Känslobaserad kvalitet: <br> Ett sätt att se på kvalitet som innebär att kvalitet inte kan definieras på ett exakt sätt, trots det kan vi ända avgöra om kvaliteten hos en produkt när vi ser den. I detta synsätt beror kvaliteten på uppfattning och de känslor som som produkten väcker hos en individ eller en grupp av individer.<br>
+    -Användarbaserad kvalitet: <br> Ett sätt att se på kvalitet som innebär att kvaliteten hos en produkt definieras av produktens förmåga att uppfylla användarens behov och önskningar. En produkt som inte uppfyller användarnas behov kommer troligtvis inte att ha några användare. 
+    Denna vy av kvalitet är kontext och tillfällighetsberoende eftersom olika affärssituationer kräver olika egenskaper hos en produkt.<br>
+    -Tillverkningsbaserad kvalitet: <br> Ett sätt att se på kvalitet som innebär att kvaliteten hos en produkt eller tjänst avgörs av i vilken grad den stämmer överens med dess ursprungliga design och krav. Kvaliteten i produkten uppkommer genom de använda utvecklings- eller tillverkningsprocesserna.<br>
   </p>
-  </div>
-  <div class="col-sm-4">
-<img src="pics/static.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
-</div>
-<div class="col-sm-4">
-  <div class="h1">Statisk testning</div>
-  <p class="para1"> 
-      fokuserar på att undersöka och granska programkod, dokumentation och design.<br>
-        En fördel med statisk testning är att den kan utföras innan programmet är färdig byggd vilket ger testaren möjlighet att upptäcka fel
-       relativt tidigt, t.ex. i ett krav och åtgärda dessa fel innan fortsatt programmering.<br>
-       Statisk provning utförs för att leta efter fel i algoritmer, koder eller dokument. 
-       Fel som görs under skrivandet av programvaran kontrolleras för korrigering genom att använda statisk testning. Denna testning görs av författaren eller utvecklaren av programvaran eller testarna och utförs genom att gå igenom den, 
-       kontrollera kodrecensioner eller visuell inspektion.
-       Statisk och dynamisk testning är beroende av varann.
-       Dem kompleterar varandra helt enkelt.
-  </p>
-  </div>
-
-
-<div class="col-sm-4">
-<img src="pics/dyna.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
 </div>
 
-
-<div class="col-sm-4">
-  <div class="h1">Dynamisk testning</div>
-  <p class="para1"> 
-     fokuserar på kvalitetssäkring och systemfunktionalitet<br>
-        Denna typ av testning utförs när mjukvaran har kompilerats fullständigt och laddats till systemet.
-        Vid dynamisk testning kontrolleras mjukvaran för konsistensen av ingångs- och utgångsparametrarna med hjälp 
-        av en annan programvara. Denna test analyserar en del av programvaran i taget för att leta efter fel och fel. 
-        Programvaran som används i Dynamisk test kontrollerar koderna för programvaran som ska testas på 
-        fördefinierade standarder och kontrollera om den testade mjukvaran ger det önskade resultatet.<br>
-        <br>
-        Statisk provning är mycket överlägsen när det gäller att hitta fel och fel då Dynamic testing.
-        Eftersom statisk provning hittar fel innan mjukvaran sammanställs och lätt kan korrigeras är den mycket billigare än dynamisk testning.
-  </p>
-  </div>
-
-  <div class="col-sm-4">
-<img src="pics/white.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+<div class="col-sm-6">
+<img src="pics/type.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
 </div>
-<div class="col-sm-4">
-  <div class="h1">Whitebox testning</div>
-  <p class="para1">
-        Whitebox-testning är en typ av testning som kräver kunskap om mjukvarans interna arbete för att fortsätta testningen. 
-        Det är test på låg nivå och anser att täcka koddeklarationer, grenar, vägar, förhållanden etc.<br>
-        En liten nackdel med Whitebox test är att kunskap om kod och intern struktur är en förutsättning. Det krävs en skicklig testare för att utföra 
-        denna typ av testning, vilket ökar kostnaden. Och det är nästan omöjligt att titta på varje bit kod för
-        att ta reda på dolda fel, vilket kan skapa problem, vilket resulterar i att programmet misslyckas.
+<br>
 
+<div class="col-sm-6">
+ <img src="pics/type.jpg" class="rounded mx-auto d-block" alt="tack" width="500px">
+ </div>
+<div class="col-sm-6">
+  <p class="para1"> 
+
+
+Produktbaserad kvalitet: <br> Ett sätt att se på kvalitet som innebär att kvaliteten hos en produkt definieras via ett antal väldefinierade kvalitetsattribut, vilka ska kunna mätas objektivt och kvantitativt. Kvalitetsskillnader mellan produkter av samma typ kan spåras tillbaka till hur specifika kvalitetsattribut har implementerats.<br> 
+Värdebaserad kvalitet:<br>  Ett sätt att se på kvalitet som innebär att kvaliteten hos en produkt avgörs av produktens pris. Produkter eller tjänster är av hög kvalitet om de tillhandahåller önskad prestanda för en acceptabel kostnad. Kvaliteten hos en produkt avgörs i form av en beslutsprocess hos en intressent där tids, ansträngnings och kostnadsaspekter vägs mot varandra.<br> 
 </p>
-  </div>
-
-<div class="col-sm-4">
-<img src="pics/black.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
 </div>
 
-
-
-  <div class="col-sm-4">
-  <div class="h1">Black testning</div>
-  <p class="para1">
-        Blackbox-testning är en typ av testning som inte kräver kunskap om mjukvarans interna arbete för att fortsätta testa. Det är en hög testnivå.
-        Meningen och huvudsyftet med blackbox-test är att kontrollera programmets beteende.<br>
-        Testen kan vara överflödiga om utvecklaren/designern redan har kört ett testfall.
-        Testfallet är svårt att utforma. Att testa alla möjliga ingångsströmmar är orealistiskt eftersom det tar överdriven tid; 
-        därför kommer många programvägar att gå oproverade.
-</p>
-  </div>
-
-<div class="col-sm-4">
-<img src="pics/func.jpg" class="rounded mx-auto d-block" alt="inled" width="800px" height="600px">
-</div>
-<br>
-<div class="col-sm-4">
-<img src="pics/soft.png" class="rounded mx-auto d-block" alt="inled" width="800px" height="600px">
-</div>
-<br>
-<br>
-   
 </div>
 </div>
 
 
-<div class="footer">
+  <div class="footer">
  
    <div class="foot" ml-auto>
                 <h5 class="uppercase general-sub"></h5>
@@ -319,7 +259,6 @@
                     </li>
                 </ul>
             </div>
-
             <!---
             <div class="col-sm-12">
                 <h5 class="uppercase general-sub">Download</h5>
@@ -331,9 +270,8 @@
                     </a>
                 </p>
             </div>
-            ---->
+            -->
 </div>
-
 <!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
