@@ -21,6 +21,8 @@ body {
 .navbar-nav{
     width: 100%;
     background-color: #ff5733;
+    float: left;
+    
 }
 .navbar-nav ul{
     display:flex;
@@ -28,6 +30,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0;
+    float: left;
 }
 
 .navbar-nav .nav-item ul li{
@@ -58,7 +61,7 @@ body {
     opacity: 0;
     visibility: hidden;
 }
-.navbar-nav .nav-sub-item ul li: ul{
+.navbar-nav .nav-sub-item ul li ul{
     opacity: 1;
     visibility:enabled
 }
@@ -128,15 +131,19 @@ nav {
 }
 .navbar-nav{
   line-height: 1.2;
+  float: left;
+ transition: all 0.5s ease;
+
   text-transform: uppercase;
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: right;
   transform: rotateX(-0deg) rotateY(20deg); 
 }
 .nav-sub-item li{
-    float:left; 
+    float:right; 
+          transition: all 5s ease;
     position:relative; 
     padding-right:100; 
     display:block; 
@@ -254,12 +261,13 @@ nav {
       width: 100%;
       text-align: left;
       margin-bottom: 20px;
-      border-style: none;
+      border-style: ridge;
+      border-right: #3CA0E7;
+      
     }
 
     ul li ul li a:hover {
       padding-left: 10px;
-      border-left: 2px solid #3ca0e7;
       transition: all 0.3s ease;
     }
   
@@ -316,14 +324,23 @@ a {
 	transform: translate(-50%, -50%);
 }
 
-.container-fluid {
+.container-fluid{
   background-color:#f1f1f1;
-  padding: none;
   height: auto; 
   width: auto;
   font-size: 15px;
- 
+  padding-left: 0; 
+  padding-right: 0;
 }
+
+
+.container-fluid .row{ 
+   margin-right: 0;
+   margin-left: 0; }
+.container-fluid .col-sm-4 .col-sm-6 .col-sm-12 {
+     padding-left: 0; 
+     padding-right: 0; }
+
 
 
 .img-fluid{
@@ -342,7 +359,7 @@ a {
     
 }
 
-
+/* 
 
 Clear floats after the columns 
 .container-fluid :after {
@@ -350,7 +367,7 @@ Clear floats after the columns
   display: table;
   clear: both;
   margin-bottom: none;
-}/* 
+}
 .column{
        float: left;
        width: 20%;
@@ -410,7 +427,6 @@ Clear floats after the columns
 
 #container{
     margin-top: none;
-    margin-left: 20px;
 }
 
 .contact-form{
@@ -477,14 +493,14 @@ Clear floats after the columns
 }
 
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens 
 @media (max-width: 600px) {
   nav, .container IMG{
     width: 100%;
     height: auto;
   }
 }
-
+*/
 
 /*
 .cardBox:last-child {
@@ -581,11 +597,11 @@ iframe {
 }
 
 
-/*---------------------------------------------*/
+/*---------------------------------------------
 .container {
 	max-width: 1200px;
 }
-
+*/
 
 
 
@@ -829,6 +845,7 @@ textarea.input100 {
 
   }
 }
+/*
 @media (max-width: 768px) {
     .navbar-nav,
     .nav-sub-item {
@@ -846,7 +863,7 @@ textarea.input100 {
     padding: 82px 15px 33px 15px;
   }
 }
-
+*/
 
 /*------------------------------------------------------------------
 [ Alert validate ]*/
