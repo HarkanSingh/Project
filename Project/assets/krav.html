@@ -32,76 +32,70 @@
     <title>Stadium</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="/Project/index.html">Meny</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="/Project/index.html">Home</a>
-        <ul class="navbar-nav">
-        <li class="nav-sub-item"><a href="inledning.html">Inledning</a></li>
-        <li class="nav-sub-item"><a href="syfte.html">Syfte</a></li>
-        </ul>
-      </li>
-     
-      <li class="nav-item">
-        <a class="nav-link" href="lia.html">Min LIA</a>
-        <ul class="navbar-nav">
-    <li class="nav-sub-item"><a href="stadium.html">Stadium</a></li>    
-      <li class="nav-sub-item"><a href="skola.html">Min skola</a></li>   
-            <li class="nav-sub-item"><a href="five.html">5 Pelare</a></li>    
-                  <li class="nav-sub-item"><a href="kung.html">Kunden</a></li>
-        </ul>
-      </li>   
-      <li class="nav-item">
-        <a class="nav-link" href="test.html">Testning</a>
-        <ul class="navbar-nav">
-            <li class="nav-sub-item"><a href="metod.html">Testmetoder</a></li>   
-                  <li class="nav-sub-item"><a href="krav.html">Krav</a></li>    
-                     <li class="nav-sub-item"><a href="princip.html">Best practices</a></li>    
-                         <li class="nav-sub-item"><a href="verktyg.html">Verktyg</a></li> 
-                                <li class="nav-sub-item"><a href="Languages.html">Språk</a></li> 
-
-        </ul>
-      </li>
-      <li class="nav-item">
-              <a class="nav-link" href="kvalitet.html">Kvalitet</a>
-              <ul class="navbar-nav">
-                <li class="nav-sub-item"><a href="type.html">kvalitets typer</a></li> 
-            </ul>
-                </li>
-                    <li class="nav-item">
-        <a class="nav-link" href="guru.html">Guru</a>
-        <ul class="navbar-nav">
-                    <li class="nav-sub-item"><a href="ledare.html">Handledare</a></li>   
-                        <li class="nav-sub-item"><a href="feed.html">Feedback</a></li>   
-                        <li class="nav-sub-item"><a href="team.html">Teamwork</a></li>   
-
-
-
-        </ul>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
-        <ul class="navbar-nav">
-            <li class= "nav-sub-item"><a href="contact.html">Contact</a></li>
-        
-        </ul>
-      </li>   
-    </ul>
+   
+<div class="topnav" id="myTopnav">
+  <div class="dropdown">
+    <button class="dropbtn">Home
+        <i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="inled.html">Inledning</a>
+      <a href="syfte.html">Syfte</a>
+    </div>
   </div>
-  <!---
-  <div class="search-box">
-    <form action="action=”http://search.google.com/find.html” method=”get” accept-charset=”utf-8” onsubmit=”ffresults.show(0);">
-      <input type="text" class="search-txt" placeholder="Search.." name="search">
-          <a class="search-btn" href=""></a>
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-  </div>--->
-</nav>
+ <div class="dropdown">
+    <button class="dropbtn">Min LIA
+        <i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="stadium.html">Stadium</a>
+      <a href="skola.html">Skola</a>
+      <a href="five.html">Five Pillars</a>
+      <a href="kung.html">Kunden är Kung</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Testing
+        <i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="metod.html">Testmetoder</a>
+      <a href="krav.html">Krav</a>
+      <a href="princip.html">Best Practices</a>
+      <a href="verktyg.html">Verktyg</a>
+      <a href="Languages.html">Språk</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Kvalitet
+        <i class="fa fa-caret-down">
+    </i></button>
+    <div class="dropdown-content">
+      <a href="kvalitet.html">Kvalitets Typer</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Guru
+        <i class="fa fa-caret-down">
+    </i></button>
+    <div class="dropdown-content">
+      <a href="guru.html">Guru</a>
+         <a href="ledare.html">Handledare</a>
+      <a href="feed.html">Feedback</a>
+            <a href="team.html">Teamwork</a>
+    </div>
+  </div>
+ <div class="dropdown">
+    <button class="dropbtn">About
+        <i class="fa fa-caret-down">
+    </i></button>
+    <div class="dropdown-content">
+                      <a href="exam.html">Examen</a>
+
+              <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      
+    </div>
+  </div>
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 
 <div class="snowflakes" aria-hidden="true">
 
@@ -184,17 +178,11 @@
 <div class="container-fluid">
   <div class="row">
 
-  <div class="col-sm-6">
+  <div class="col-sm-4">
 <img src="pics/krav.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
 </div>
 
-
-<div class="col-sm-6">
-<img src="pics/why.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
-</div>
-
-
-  <div class="col-sm-6">
+  <div class="col-sm-6  col-md-6 col-lg-4">
   <div class="h1">Krav</div>
   <p class="para1"> 
     Jag har mitt under mitt dagliga arbete konstant jobbat med Krav, 
@@ -214,9 +202,12 @@
 
   </p>
   </div>
+<div class="col-sm-4">
+<img src="pics/why.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
 
 
-<div class="col-sm-6">
+<div class="col-sm-6  col-md-6 col-lg-4">
   <div class="h1">Målet</div>
   <p class="para1"> 
     Målet med produkten är en viktig del vid formulering av krav där syftet är att  
@@ -235,16 +226,11 @@
 
   </p>
   </div>
-<div class="col-sm-6">
+<div class="col-sm-4">
 <img src="pics/funk.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
 </div>
 
-
-<div class="col-sm-6">
-<img src="pics/non.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
-</div>
-
-      <div class="col-sm-6">
+      <div class="col-sm-6  col-md-6 col-lg-4">
   <div class="h1">Funktionella krav</div>
   <p class="para1"> 
     Funktionella krav beskriver hur systemet interagerar med användarna.
@@ -254,7 +240,12 @@
  </div>
 
  
- <div class="col-sm-6">
+<div class="col-sm-4">
+<img src="pics/non.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
+
+ 
+ <div class="col-sm-6  col-md-6 col-lg-4">
   <div class="h1">Icke Funktionella krav</div>
   <p class="para1"> 
     Krav som inte beskriver något som någon/något vill göra i/med systemet kallas för icke-funktionella krav.
@@ -263,16 +254,12 @@
   </p>  
  </div>
 
-<div class="col-sm-6">
+<div class="col-sm-4">
 <img src="pics/usecase.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
 </div>
 
 
-<div class="col-sm-6">
-<img src="pics/userst.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
-</div>
-
-<div class="col-sm-6">
+<div class="col-sm-6  col-md-6 col-lg-4">
   <div class="h1">Usecase</div>
   <p class="para1"> 
     Användningsfall (use case) lanserades av Ivar Jacobson och beskriver den kommunikation som sker mellan aktören (som använder systemet) och systemet.
@@ -290,8 +277,11 @@ etc.</p>
  </div>
 
 
+<div class="col-sm-4">
+<img src="pics/userst.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
 
-<div class="col-sm-6">
+<div class="col-sm-6  col-md-6 col-lg-4">
   <div class="h1">User Story </div>
   <p class="para1"> 
 En user story beskriver kortfattat vad en användare ska kunna göra i systemet och det värde som skapas. 
@@ -307,15 +297,13 @@ Som en kund, vill jag handla en marketplace produkt, för att se att frakten är
 
   </p>
     </div>
-<div class="col-sm-6">
+<div class="col-sm-4">
 <img src="pics/MVP.png" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
 </div>
 
-<div class="col-sm-6">
-<img src="pics/bip.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
-</div>
 
-    <div class="col-sm-6">
+
+    <div class="col-sm-6  col-md-6 col-lg-4">
   <div class="h1">Minium Viable product</div>
   <p class="para1"> 
   Vad är MVP, "Minimum Viable Product" <br>(“minsta livskraftiga produkt”) är en första fungerande version av en produkt som har precis tillräckligt med funktion och innehåll för att locka till sig "betalande" användare. Syftet är att på minimal utvecklingstid få maximal utdelningen för intressenterna och samtidigt skapa en feeback-loop som bra beslut för vidareutveckling tas baserat på erfarenheter från "marknaden". Utmärkande för en MVP är:
@@ -327,8 +315,12 @@ Genom att inte ta för stora tuggor av projektet undviker man att fastna på det
 
   </p>
     </div>
+<div class="col-sm-4">
+<img src="pics/bip.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
+</div>
 
-    <div class="col-sm-6">
+
+    <div class="col-sm-6  col-md-6 col-lg-4">
   <div class="h1">Business Idea Product</div>
   <p class="para1"> 
   Vad är BIP Business Idea Product<br> är produkten som löser din affärsidé, är en fungerande version av en ny lösning som ger användarna tillräcklig nytta från dag 1. Syftet att skapa en feeback-loop, att komma ut på marknaden för att baserat på
@@ -338,16 +330,24 @@ Genom att inte ta för stora tuggor av projektet undviker man att fastna på det
         Den har tillräckligt mycket värde för att användare ska vilja ha den.
         Genom att inte ta för stora tuggor av projektet undviker man att fastna på detaljer, detaljer kan alltid komma senare. Det är lättare att vara överens om att skjuta upp en funktion till kommande release än att prioritera bort den, den finns ju fortfarande med i din BIP.
 
-
+<br>
+    <br>
+    <br>
+    <br>
   </p>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
 
-    <div class="col-sm-6">
+    <div class="col-sm-4">
 <img src="pics/proto.jpg" class="rounded mx-auto d-block" alt="inled" width="500px" height="300px">
 </div>
 
 
-<div class="col-sm-6">
+<div class="col-sm-6  col-md-6 col-lg-4">
   <div class="h1">Prototyp</div>
   <p class="para1"> 
         Vad är en prototyp?<br>
@@ -357,6 +357,8 @@ Genom att inte ta för stora tuggor av projektet undviker man att fastna på det
         Syftet med prototypen är inte att den ska användas i den slutliga produkten, detta kan vara direkt kontraproduktivt.
   </p>
     </div>
+    <br><br>
+    <br><br>
     </div>
         </div>
 
@@ -366,15 +368,7 @@ Genom att inte ta för stora tuggor av projektet undviker man att fastna på det
 
 
 
-      
-    
 
-
-
-    
-
-  </article1>
-</section>
 
 <div class="footer">
  
@@ -434,7 +428,8 @@ Genom att inte ta för stora tuggor av projektet undviker man att fastna på det
             </div>
             --->
 </div>
-<!--===============================================================================================-->
+
+    <!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
 	<script src="vendor/animsition/js/animsition.min.js"></script>
@@ -450,9 +445,9 @@ Genom att inte ta för stora tuggor av projektet undviker man att fastna på det
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
-	<script src="map-custom.js"></script>
+	<script src="js/map-custom.js"></script>
 <!--===============================================================================================-->
-	<script src="main.js"></script>
+	<script src="js/main.js"></script>
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -462,11 +457,21 @@ Genom att inte ta för stora tuggor av projektet undviker man att fastna på det
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-23581568-13');
+  gtag('config', '59.2215779,17.9368891,15z');
 
-      $('[href]').css('color','white');
+    $('[href]').css('color','white');
 
-</script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
     
+</script>
 </body>
 </html>
