@@ -162,36 +162,21 @@ li{
 }
 
 
-.Front{
+.container-fluid .Front{
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  height: 100%;
-  width:100%;
-	max-width: 100%;
-    max-height: 100%;
-	top: 10%;
-	left: 10%;
+
 	border-radius: 3px;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+    max-width: 100%;
 }
 
-.Front.ri:empty
-{
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
 
 .container-fluid{
   background-color:transparent;
-  
   font-size: 15px;
   padding-left: 0; 
   padding-right: 0;
@@ -610,7 +595,7 @@ iframe {
 }
 
 @media screen and (max-width: 767px) {
-  .cardBox {
+  .cardBox .front{
     margin-left: 2.8%;
     margin-top: 3%;
     width: 46%;
